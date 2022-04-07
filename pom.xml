@@ -35,6 +35,10 @@
     <module>cloudalibaba-provider-payment9002</module>
     <module>cloudalibaba-consumer-nacos-order83</module>
     <module>cloudalibaba-config-nacos-client3377</module>
+    <module>cloudalibaba-sentinel-service8401</module>
+    <module>cloudalibaba-provider-payment9003</module>
+    <module>cloudalibaba-provider-payment9004</module>
+    <module>cloudalibaba-consumer-nacos-order84</module>
   </modules>
 
   <properties>
@@ -42,7 +46,7 @@
     <maven.compiler.source>1.8</maven.compiler.source>
     <maven.compiler.target>1.8</maven.compiler.target>
     <junit.version>4.12</junit.version>
-    <log4j.version>1.2.17</log4j.version>
+    <log4j.version>1.2.12</log4j.version>
     <lombok.version>1.16.18</lombok.version>
     <mysql.version>5.1.47</mysql.version>
     <druid.version>1.1.16</druid.version>
@@ -138,10 +142,7 @@
       <plugin>
         <groupId>org.springframework.boot</groupId>
         <artifactId>spring-boot-maven-plugin</artifactId>
-        <configuration>
-          <fork>true</fork>
-          <addResources>true</addResources>
-        </configuration>
+        <version>2.2.2.RELEASE</version>
       </plugin>
     </plugins>
   </build>
